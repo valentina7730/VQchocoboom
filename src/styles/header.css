@@ -1,0 +1,33 @@
+header {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+}
+header div {
+  flex-grow: 1;
+}
+header img.logotipo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+header .navbar-toggler,
+header #navbarSupportedContent {
+  z-index: 2;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 10;
+  margin-top: 20px;
+}
+header nav > ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style: none;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=header.css.map */
